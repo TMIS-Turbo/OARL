@@ -3,7 +3,7 @@ This repository is the implementation of our research "**[Robust Lane Change Dec
 
 ## Introduction
 ### Schematic of the OARL Framework toward Robust Lane Change Decision Making for Autonomous Vehicles
-<img src="/framework.jpg" alt="ENV" width="600" height="500">
+<img src="/framework.jpg" alt="ENV" width="398" height="366">
 Reinforcement learning holds the promise of allowing autonomous vehicles to learn complex decision making behaviors through interacting with other traffic participants.
 However, many real-world driving tasks involve unpredictable perception errors or measurement noises which may 
 mislead an autonomous vehicle into making unsafe decisions, even cause catastrophic failures.
@@ -35,7 +35,7 @@ The required packages can be installed using
 
 
 ## Acknowledgement
-We greatly appreciate the important references provided by the two code repositories [HigwayOvertakingLaneChanges](https://github.com/ML-Tina/HigwayOvertakingLaneChanges), [SAC](https://github.com/denisyarats/pytorch_sac), and [BO](https://github.com/bayesian-optimization/BayesianOptimization) for the implementation of our research.
+We greatly appreciate the important references provided by the three code repositories [HigwayOvertakingLaneChanges](https://github.com/ML-Tina/HigwayOvertakingLaneChanges), [SAC](https://github.com/denisyarats/pytorch_sac), and [BO](https://github.com/bayesian-optimization/BayesianOptimization) for the implementation of our research.
 
 ## Citation
 If you find this repository helpful for your research, we would greatly appreciate it if you could star our repository and cite our work.
