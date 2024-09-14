@@ -1,5 +1,5 @@
 # OARL
-This repository is the implementation of our research "**[Robust Lane Change Decision Making for Autonomous Vehicles: An Observation Adversarial Reinforcement Learning Approach](https://www.researchgate.net/publication/359776714_Robust_Lane_Change_Decision_Making_for_Autonomous_Vehicles_An_Observation_Adversarial_Reinforcement_Learning_Approach)**". This study has been published in [IEEE TIV](https://ieeexplore.ieee.org/abstract/document/9750867). 
+This repository is the implementation of our research "**[Robust Lane Change Decision Making for Autonomous Vehicles: An Observation Adversarial Reinforcement Learning Approach](https://www.researchgate.net/publication/359776714_Robust_Lane_Change_Decision_Making_for_Autonomous_Vehicles_An_Observation_Adversarial_Reinforcement_Learning_Approach)**". This work has been published in [IEEE TIV](https://ieeexplore.ieee.org/abstract/document/9750867). 
 
 ## Introduction
 ### Schematic of the OARL Framework toward Robust Lane Change Decision Making for Autonomous Vehicles
