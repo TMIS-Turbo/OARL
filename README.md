@@ -35,7 +35,7 @@ The required packages can be installed using
 
 
 ## Acknowledgement
-We greatly appreciate the important references provided by the two code repositories [BO](https://github.com/bayesian-optimization/BayesianOptimization) and [SAC](https://github.com/denisyarats/pytorch_sac) for the implementation of our research.
+We greatly appreciate the important references provided by the two code repositories [HigwayOvertakingLaneChanges](https://github.com/ML-Tina/HigwayOvertakingLaneChanges), [SAC](https://github.com/denisyarats/pytorch_sac), and [BO](https://github.com/bayesian-optimization/BayesianOptimization) for the implementation of our research.
 
 ## Citation
 If you find this repository helpful for your research, we would greatly appreciate it if you could star our repository and cite our work.
