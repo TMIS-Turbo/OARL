@@ -1,0 +1,19 @@
+<routes>
+<vType id= "Auto" accel="3.00000" decel="3.000000" sigma="0.500000" maxSpeed = "35.0000" length="5.000000" color="1,0,0" vClass="passenger" minGap="25" tau="1" laneChangeModel="LC2013"/>
+<vType id= "Car" accel="8.000000" decel="8.000000" sigma="0.50000" maxSpeed = "20.00" length="4.000000" color="0,1,0" vClass="passenger" minGap="25" tau="1" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.5"/>
+<vType id= "FastCar" lcKeepRight="100" accel="8.000000" decel="8.000000" sigma="0.5000" maxSpeed = "25.0000" length="5.0000" color="1,1,0" vClass="passenger" minGap="25" tau="1" lcStrategic="0.5" lcCooperative="0.5"/>
+<vType id= "truck" accel="8.000000" decel="8.000000" sigma="0.500000" maxSpeed = "15.00" length="8.000000" color="0,1,0" vClass="truck" minGap="30" tau="1" lcCooperative="0.3"/>
+
+<route id="Straight" edges= "Lane"/>
+
+<flow id="Car" color="0,1,0"  begin="0" end= "800" probability="0.08" type="Car" departLane="random" arrivalLane="2">
+    <route edges="Lane"/>
+</flow>
+ <flow id="FastCar" color="1,1,0"  begin="0" end= "1000" probability="0.04" type="FastCar" departLane="random" arrivalLane="3">
+    <route edges="Lane"/>
+</flow>
+<flow id="truck" color="0,1,0"  begin="0" end= "600" probability="0.02" type="truck" departLane="random" arrivalLane="0">
+   <route edges="Lane"/>
+</flow>
+<vehicle id="Auto" color="1,0,0" depart="80"  route="Straight" type="Auto" departLane="2"/>
+</routes>
